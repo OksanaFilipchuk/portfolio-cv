@@ -19,22 +19,24 @@ let projects = [
   {
     title: "Css Slider",
     picture: "/img/portfolio-img/cssSlider.png",
-    codeUrl: "",
-    deployUrl: "",
+    codeUrl: "https://github.com/OksanaFilipchuk/cssMemSlider",
+    deployUrl:
+      "https://oksanafilipchuk.github.io/cssMemSlider/cssMemSlider/index.html",
     backendUrl: "",
   },
   {
     title: "Game-algorithm",
     picture: "/img/portfolio-img/game.png",
-    codeUrl: "",
-    deployUrl: "",
+    codeUrl: "https://github.com/OksanaFilipchuk/eldritch-codejam",
+    deployUrl: "https://oksanafilipchuk.github.io/eldritch-codejam/",
     backendUrl: "",
   },
   {
-    title: "Virtual keyboard<",
+    title: "Virtual keyboard",
     picture: "/img/portfolio-img/keyboard.png",
-    codeUrl: "",
-    deployUrl: "",
+    codeUrl:
+      "https://github.com/OksanaFilipchuk/virtual-keyboard/tree/keyboard",
+    deployUrl: "https://oksanafilipchuk.github.io/virtual-keyboard/",
     backendUrl: "",
   },
   {
@@ -47,8 +49,8 @@ let projects = [
   {
     title: "Portfolio",
     picture: "/img/portfolio-img/portfolio.png",
-    codeUrl: "",
-    deployUrl: "",
+    codeUrl: "https://github.com/OksanaFilipchuk/portfolio",
+    deployUrl: "https://oksanafilipchuk.github.io/portfolio/portfolio/",
     backendUrl: "",
   },
   {
@@ -74,13 +76,6 @@ let projects = [
     deployUrl: "https://incomparable-selkie-9577e4.netlify.app/",
     backendUrl: "",
   },
-  //   {
-  //     title: "Travel",
-  //     picture: "/img/portfolio-img/travel.png)",
-  //     codeUrl: "https://github.com/OksanaFilipchuk/Travel",
-  //     deployUrl: "https://rolling-scopes-school.github.io/oksanafilipchuk-JSFEPRESCHOOL2022Q2/travel/",
-  //     backendUrl: "",
-  //   },
 ];
 
 projects.forEach((el) => {
