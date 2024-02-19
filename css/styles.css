@@ -1,11 +1,21 @@
 body {
-  background-image: url(/img/aa9b66e9-0f9b-4aed-834b-f846a7cc272b.jpg);
+  background: url("../img/aa9b66e9-0f9b-4aed-834b-f846a7cc272b.jpg");
   background-size: 100%;
   color: rgb(233, 227, 216);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0px -5px 16px 2px rgb(255, 255, 255);
 }
 
 a {
   color: rgb(233, 227, 216);
+}
+a:hover {
+  color: rgb(165, 167, 165) !important;
+  transition: all 300ms;
 }
 
 hr {
@@ -14,11 +24,15 @@ hr {
 
 h3 {
   margin-bottom: 30px;
+  text-align: center;
+}
+
+.nav-link {
+  color: rgb(233, 227, 216);
 }
 
 section {
   min-height: 300px;
-  background-size: 100%;
 }
 
 #about {
@@ -39,6 +53,29 @@ section {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+
+.profile-section {
+  min-width: 400px;
+}
+@media screen and (max-width: 576px) {
+  .profile-section {
+    min-width: 100%;
+  }
+}
+.profile-section li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.profile-section li img {
+  width: 20px;
 }
 
 #experience li {
@@ -64,11 +101,15 @@ section {
   font-style: italic;
   font-size: 16px;
 }
+#education .badge {
+  min-width: 140px;
+}
 
 #portfolio .card-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 }
 #portfolio .card {
   width: 250px;
@@ -81,4 +122,24 @@ section {
 }
 #portfolio .carousel-inner {
   height: 250px;
+}
+#portfolio a {
+  color: rgb(2, 2, 2);
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0px 1px 16px 2px rgb(255, 255, 255);
+}
+footer p {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
 }/*# sourceMappingURL=styles.css.map */
