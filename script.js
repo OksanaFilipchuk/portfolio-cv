@@ -10,6 +10,13 @@ let projects = [
     backendUrl: "",
   },
   {
+    title: "News App",
+    picture: "./img/portfolio-img/news-app.png",
+    codeUrl: "https://github.com/OksanaFilipchuk/news-app",
+    deployUrl: "https://glittery-khapse-5059f4.netlify.app/news",
+    backendUrl: "",
+  },
+  {
     title: "Async Race",
     picture: "./img/portfolio-img/async-race.png",
     codeUrl:
