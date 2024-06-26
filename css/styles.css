@@ -1,7 +1,10 @@
+html {
+  background-color: rgb(48, 48, 48);
+}
+
 body {
-  background: url("../img/aa9b66e9-0f9b-4aed-834b-f846a7cc272b.jpg");
-  background-size: 100%;
-  color: rgb(233, 227, 216);
+  background: #000000;
+  color: #e9e3d8;
   font-family: "Roboto", sans-serif;
 }
 

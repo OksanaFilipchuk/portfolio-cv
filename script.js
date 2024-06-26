@@ -137,3 +137,8 @@ projects.forEach((el) => {
   }
   portfolio.appendChild(card);
 });
+
+setTimeout(() => {
+  document.querySelector("body").style.background =
+    "center/cover no-repeat url('img/aa9b66e9-0f9b-4aed-834b-f846a7cc272b.jpg')";
+}, 0);
